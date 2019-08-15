@@ -11,7 +11,7 @@ class LoginHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(children: <Widget>[
-      Text('Login', style: headerStyle),
+//      Text('Login', style: headerStyle),
       UIHelper.verticalSpaceMedium,
       Text('Enter a number between 1 - 10', style: subHeaderStyle),
       LoginTextField(controller),
